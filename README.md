@@ -48,9 +48,15 @@ Sıralı dizimiz-> [2, 6, 16, 18, 22, 27] Average case kapsamına girer.
 [7, 3, 5, 8, 2, 9, 4, 15, 6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
 
 7| 3 5 8 2 9 4 15 6
+
 7 3| 5 8 2 9 4 15 6 -> 3 ve 7 yer değiştirir.
+
 3 7 5| 8 2 9 4 15 6 -> 5 ve 7 yer değiştirir.
+
 3 5 7| 8 2 9 4 15 6 
+
 3 5 7 8| 2 9 4 15 6 -> geride kalan sayılardan büyük olduğu için işlem yapılmaz.
+
 3 5 7 8 2| 9 4 15 6 -> 3 5 7 2 8| 9 4 15 6 -> 3 5 2 7 8| 9 4 15 6 -> 3 2 5 7 8| 9 4 15 6 -> 2 3 5 7 8| 9 4 15 6
+
 4. adımdan sonraki hali; [2, 3, 5, 7, 8| 9, 4, 15, 6]
